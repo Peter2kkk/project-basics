@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="intro.css" />
+  <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://kit.fontawesome.com/e531ff4975.js" crossorigin="anonymous">
+  </script>
+  <title>Document</title>
+</head>
+<body>
+ <main>
+  <nav>
+    <h1>Simple Website</h1>
+    <div class="nav-links" id="navLinks">
+      <i class="fa-solid fa-xmark" onclick="navClose()"></i>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+      </ul>
+      </div>
+      <i class="fa-solid fa-bars" onclick="navOpen()"></i>
+  </nav>
+  <div class="main-page">
+    <div class="mainpage-container">
+      <div class="row">
+        <div class="col-1">
+          <h1>Hi i'm Peter2k, Welcome <span> to my simple website</span></h1>
+          <p>I'm currently 4th year bsit student. My main goal is a successful Web Developer to help people connect each other accross the world.</p>
+          <div class="skills">
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-square-js"></i>
+          </div>
+        </div>
+          <div class="col-2">
+            <img src="./img/new logo 2k23 alternative.png" alt="img">
+        </div>
+      </div>
+    </div>
+</div>
+<footer>
+  <div class="footer-container">
+    <h3>Made with❤️ By: Peter2k</h3>
+    <div class="socialmedia">
+      <a href="https://web.facebook.com/RevnedNaomarac/">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-discord"></i>
+    </div>
+  </div>
+  <div class="footerline">
+    <small>© 2023</small>
+  </div>
+</footer>
+<!-- Javascript -->
+<script>
+  const navLinks = document.getElementById("navLinks");
+
+  function navClose(){
+    navLinks.style.right = "-200px"
+  }
+  function navOpen(){
+    navLinks.style.right = "0"
+  }
+
+</script>
+ </main>
+</body>
+</html>
